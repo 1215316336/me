@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  int x,p,t=0;
+  scanf("%d%d\n",&x,&p);
+  t=x;
+  while(x>0)
+  {
+    x=x-(x*p/100);
+    t=t+x;
+   
+  }
+  printf("%d",t);
+  
+  return 0;
+}
